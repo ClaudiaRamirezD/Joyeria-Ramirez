@@ -1,0 +1,252 @@
+ * {
+     margin: 0%;
+     padding: 0%;
+
+     box-sizing: border-box;
+ }
+
+ .contenedor {
+     padding: 20px 0;
+     width: 100%;
+     max-width: 1000px;
+     margin: auto;
+     overflow: hidden;
+ }
+
+ body {
+     font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+ }
+
+ header {
+     background: rgb(28, 48, 93);
+     background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
+
+     color: #89c2d9;
+     width: 100%;
+     height: auto;
+     position: fixed;
+
+
+ }
+
+ .usuario {
+     display: inline-block;
+     
+     padding-right: 1rem;
+ }
+
+ h1 {
+     text-align: center;
+     padding: 6px;
+ }
+
+ .navegacion {
+     height: 3rem;
+     width: 100%;
+ }
+
+ .menu {
+
+     display: flex;
+     justify-content: space-evenly;
+
+
+ }
+
+ .menu li {
+     display: inline-block;
+
+ }
+
+ .menu>li>a {
+     display: block;
+     padding: 10px 30px;
+     color: #a9d6e5;
+     text-decoration: none;
+
+     font-size: 28px;
+ }
+
+ .menu li a:hover {
+     color: #41ead4;
+ }
+
+
+ main {
+     padding-top: 5rem;
+     background-color: blue;
+     background-image: url(../MULTIMEDIA/moroccan-flower-dark.png);
+     width: 100%;
+ }
+
+
+
+
+ .carrusel {
+     padding: 2rem;
+     background-size: cover;
+     color: #89c2d9;
+     font-size: 60px;
+     text-align: center;
+     padding: 150px;
+     background-image: url(../MULTIMEDIA/jewellery.jpg);
+ }
+
+ .cintillo {
+     display: flex;
+     flex-flow: row wrap;
+     text-align: center;
+     justify-content: space-around;
+     align-items: center;
+     width: 100vw;
+     height: 80px;
+     background: rgb(28, 48, 93);
+     background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
+
+     color: #a9d6e5;
+     list-style: none;
+
+ }
+
+ .cintillo li {
+     flex: 1 1 0;
+     padding: 20px;
+     text-decoration: none;
+ }
+
+ .button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ button {
+     background: rgb(35, 9, 128);
+     background: radial-gradient(circle, rgba(35, 9, 128, 1) 0%, rgba(3, 13, 34, 1) 100%);
+     width: 300px;
+     border-radius: 180px;
+     text-align: center;
+     font-size: 26px;
+     margin-top: 2.5rem;
+     text-decoration: none;
+     color: #a9d6e5;
+
+ }
+
+ button a {
+     text-decoration: none;
+     color: #a9d6e5;
+ }
+
+
+ .imagen-port-index {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+ }
+
+ .imagen-port-index>a>img {
+     width: 300px;
+     height: 300px;
+     padding: 1.5rem;
+     border-radius: 110px;
+ }
+
+ .imagen-port {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     height: 100%;
+     width: 100%;
+     object-fit: contain;
+ }
+
+ .imagen-port>img {
+     width: 300px;
+     height: 300px;
+     padding: 1.5rem;
+     border-radius: 110px;
+ }
+
+ footer {
+     background: rgb(28, 48, 93);
+     background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
+     color: #89c2d9;
+     padding: 5px 0 0 0;
+     width: 100vw;
+     overflow: hidden;
+     text-decoration: none;
+ }
+
+ .contenedor-footer {
+     display: flex;
+     justify-content: space-evenly;
+     margin: auto;
+     padding-bottom: 30px;
+     border-bottom: 1px solid #89c2d9;
+ }
+
+ .content-foo {
+     text-align: center;
+     display: inline-block;
+     text-decoration: none;
+ }
+
+ .content-foo>h4 {
+     border-bottom: 3px solid;
+     padding: 5px;
+     margin-bottom: 10px;
+     display: block;
+ }
+
+ .sociales {
+     display: flex;
+     justify-content: space-between;
+     font-size: 23px;
+ }
+
+ .titulo-final {
+     text-align: center;
+     font-size: 1rem;
+     margin: 10px 0 0 0;
+ }
+
+ .video {
+     display: flex;
+     justify-content: center;
+     padding: 5% 5%;
+ }
+
+ .contenedor-formulario {
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-content: center;
+     height: 60vh;
+     background-image: url(../MULTIMEDIA/moroccan-flower-dark.png);
+     color: #89c2d9;
+     font-size: 20px;
+ }
+
+ .contenedor-legend {
+     text-align: center;
+     padding: 1rem;
+     background-image: url(../MULTIMEDIA/pyramid.gif);
+ }
+
+ .contenedor-botones {
+     padding-top: 2rem;
+ }
+
+ a {
+     text-decoration: none;
+     color: #89c2d9;
+ }
+
+ a:hover {
+     color: #41ead4;
+ }
