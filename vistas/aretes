@@ -2,19 +2,19 @@
 <html lang="es">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../CSS/style.css">
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anillos</title>
-  <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aretes</title>
+    <script src="https://kit.fontawesome.com/626aa2cec3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-   <header class="hero">
+     <header class="hero">
     <div class="top-header">
       <div class="telefono">
         <a href="#telefono"><i class="fas fa-phone-alt"></i></a></i> 
@@ -24,7 +24,7 @@
 
       <div class="usuario">
         <i class="fas fa-user"></i>
-        <em><a href="Vistas/Formulario.html"> Iniciar sesión</a></em>
+        <em><a href="./formulario"> Iniciar sesión</a></em>
         <i class="fas fa-shopping-cart"></i>
         <em>Compras</em>
       </div>
@@ -36,39 +36,38 @@
     <nav class="navegacion">
       <ul class="menu">
         <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Anillos</a></li>
-        <li><a href="./aretes">Aretes</a></li>
+        <li><a href="./anillos">Anillos</a></li>
+        <li><a href="#">Aretes</a></li>
         <li><a href="./collares">Collares</a></li>
         <li><a href="./pulseras">Pulseras</a></li>
         <li><a href="./otros">Otros</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-  
+    <main>
+        <section class="portafolio">
+            <div class="contenedor">
+                <div class="button">
+                    <button><a href="./promociones">Promociones aquí</a>
+                    </button>
 
-    <section class="portafolio">
-      <div class="contenedor">
-        <div class="button">
-           <button><a href="./promociones.html">Promociones aquí</a></button>
-          
-        </div>
-        <div class="galeria-port">
-          <div class="imagen-port">
-            <img src="../MULTIMEDIA/anillo1.jpg" alt="anillo1">
-            <img src="../MULTIMEDIA/anillo3.jfif" alt="anillo2">
-            <img src="../MULTIMEDIA/anillo2.jpg" alt="anillo3" >
-            <img src="../MULTIMEDIA/anillo4.jfif" alt="anillo4">
-            <img src="../MULTIMEDIA/anillo5.jfif" alt="anillo5">
-            <img src="../MULTIMEDIA/anillo6.jfif" alt="anillo6">
-         
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+                </div>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="../MULTIMEDIA/arete1.jpg" alt="arete1">
+                        <img src="../MULTIMEDIA/arete2.jpg" alt="arete2">
+                        <img src="../MULTIMEDIA/arete3.jfif" alt="arete3">
+                        <img src="../MULTIMEDIA/arete4.jfif" alt="arete4">
+                        <img src="../MULTIMEDIA/arete5.jpg" alt="arete5">
+                        <img src="../MULTIMEDIA/arete6.jpg" alt="arete6">
 
-   <footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
     <div class="contenedor-footer">
       <div class="contactanos">
 
@@ -103,5 +102,6 @@
     </div>
     <h2 class="titulo-final">&copy; Claudia Ramírez</h2>
   </footer>
-  </body>
+</body>
+
 </html>
