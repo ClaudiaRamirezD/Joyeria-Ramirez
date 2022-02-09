@@ -1,70 +1,45 @@
  * {
      margin: 0%;
      padding: 0%;
-
      box-sizing: border-box;
  }
 
- .contenedor {
-     padding: 20px 0;
-     width: 100%;
-     max-width: 1000px;
-     margin: auto;
-     overflow: hidden;
+ html {
+     color: #89c2d9;
  }
+
+
+
 
  body {
      font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
  }
 
- header {
+ .hero {
      background: rgb(28, 48, 93);
      background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
-
      color: #89c2d9;
-     width: 100%;
-     height: auto;
      position: fixed;
-
-
+     width: 100%;
  }
 
- .usuario {
-     display: inline-block;
-     
-     padding-right: 1rem;
+ .top-header {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 1rem;
  }
 
  h1 {
      text-align: center;
-     padding: 6px;
- }
-
- .navegacion {
-     height: 3rem;
-     width: 100%;
+     font-size: 1.5rem;
  }
 
  .menu {
-
      display: flex;
      justify-content: space-evenly;
+     list-style: none;
+     padding: .5rem;
 
-
- }
-
- .menu li {
-     display: inline-block;
-
- }
-
- .menu>li>a {
-     display: block;
-     padding: 10px 30px;
-     color: #a9d6e5;
-     text-decoration: none;
-
-     font-size: 28px;
  }
 
  .menu li a:hover {
@@ -76,33 +51,40 @@
      padding-top: 5rem;
      background-color: blue;
      background-image: url(../MULTIMEDIA/moroccan-flower-dark.png);
-     width: 100%;
+     width: 100vw;
  }
 
 
-
-
- .carrusel {
-     padding: 2rem;
-     background-size: cover;
-     color: #89c2d9;
-     font-size: 60px;
-     text-align: center;
-     padding: 150px;
+ .carrusel-contenedor {
+     margin: auto;
+     width: 80vw;
+     height: 20vh;
+     overflow: hidden;
      background-image: url(../MULTIMEDIA/jewellery.jpg);
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     flex-wrap: wrap;
+
+ }
+
+ h3 {
+     font-size: 2rem;
  }
 
  .cintillo {
+     font-size: .75rem;
      display: flex;
-     flex-flow: row wrap;
+     flex-wrap: wrap;
      text-align: center;
-     justify-content: space-around;
+     justify-content: space-between;
      align-items: center;
      width: 100vw;
-     height: 80px;
+     height: 12vh;
      background: rgb(28, 48, 93);
      background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
-
      color: #a9d6e5;
      list-style: none;
 
@@ -110,8 +92,14 @@
 
  .cintillo li {
      flex: 1 1 0;
-     padding: 20px;
      text-decoration: none;
+ }
+
+ .contenedor {
+     width: 100%;
+     max-width: 1000px;
+     margin: auto;
+     overflow: hidden;
  }
 
  .button {
@@ -124,13 +112,14 @@
  button {
      background: rgb(35, 9, 128);
      background: radial-gradient(circle, rgba(35, 9, 128, 1) 0%, rgba(3, 13, 34, 1) 100%);
-     width: 300px;
+     width: 50%;
      border-radius: 180px;
      text-align: center;
-     font-size: 26px;
-     margin-top: 2.5rem;
+     font-size: 1.5rem;
+
      text-decoration: none;
      color: #a9d6e5;
+     margin-top: 20px;
 
  }
 
@@ -150,8 +139,8 @@
  }
 
  .imagen-port-index>a>img {
-     width: 300px;
-     height: 300px;
+     width: 200px;
+     height: 200px;
      padding: 1.5rem;
      border-radius: 110px;
  }
@@ -166,52 +155,47 @@
  }
 
  .imagen-port>img {
-     width: 300px;
-     height: 300px;
+     width: 200px;
+     height: 200px;
      padding: 1.5rem;
      border-radius: 110px;
  }
+
+
 
  footer {
      background: rgb(28, 48, 93);
      background: radial-gradient(circle, rgba(28, 48, 93, 1) 0%, rgba(3, 13, 34, 1) 100%);
      color: #89c2d9;
-     padding: 5px 0 0 0;
      width: 100vw;
      overflow: hidden;
-     text-decoration: none;
+     text-align: center;
  }
 
  .contenedor-footer {
+     display: grid;
+     row-gap: 3px;
+     font-size: 1rem;
+ }
+
+ .mail-tel {
      display: flex;
-     justify-content: space-evenly;
-     margin: auto;
-     padding-bottom: 30px;
-     border-bottom: 1px solid #89c2d9;
- }
-
- .content-foo {
-     text-align: center;
-     display: inline-block;
-     text-decoration: none;
- }
-
- .content-foo>h4 {
-     border-bottom: 3px solid;
-     padding: 5px;
-     margin-bottom: 10px;
-     display: block;
+     justify-content: space-around;
+     font-size: 1rem;
  }
 
  .sociales {
      display: flex;
-     justify-content: space-between;
-     font-size: 23px;
+     justify-content: space-around;
+     font-size: 1.5rem;
  }
+
+
+
 
  .titulo-final {
      text-align: center;
-     font-size: 1rem;
+     font-size: .5rem;
      margin: 10px 0 0 0;
  }
 
@@ -249,4 +233,92 @@
 
  a:hover {
      color: #41ead4;
+     transform: scale(1.1);
+ }
+
+
+
+ @media only screen and (min-width: 768px) {
+     .menu {
+         font-size: 1.5rem;
+     }
+
+     .carrusel-contenedor {
+         height: 30vh;
+     }
+
+     .cintillo {
+         font-size: 1rem;
+     }
+
+     button {
+         width: 200px;
+     }
+
+     .imagen-port-index>a>img {
+         width: 300px;
+         height: 300px;
+         padding: 1rem;
+         border-radius: 66px;
+     }
+
+     .imagen-port>img {
+         width: 300px;
+         height: 300px;
+         padding: 1rem;
+         border-radius: 66px;
+     }
+
+
+     .sociales {
+
+         font-size: 1.8rem;
+     }
+
+     .contenedor-footer {
+         display: grid;
+         font-size: 1.3rem;
+         grid-template-columns: 1fr 1fr;
+
+
+     }
+ }
+
+
+
+
+ @media only screen and (min-width: 1024px) {
+     .top-header {
+         padding: 1rem;
+     }
+
+     .carrusel-contenedor {
+         height: 40vh;
+     }
+
+     h1 {
+         font-size: 2rem;
+     }
+
+     .imagen-port-index>a>img {
+         width: 300px;
+         height: 300px;
+         padding: 1.5 rem;
+         border-radius: 98px;
+     }
+
+     .contenedor-footer {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .titulo-final {
+         font-size: 1rem;
+
+     }
+
+     button {
+         margin-top: 70px
+     }
+
  }
